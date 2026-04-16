@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nadaAquiMod", "nadaAquiMod.csproj", "{36979383-F0FF-2DEB-1799-0D6C6E587023}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36979383-F0FF-2DEB-1799-0D6C6E587023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36979383-F0FF-2DEB-1799-0D6C6E587023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36979383-F0FF-2DEB-1799-0D6C6E587023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36979383-F0FF-2DEB-1799-0D6C6E587023}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {460EA362-B92D-4161-8650-12975EA5813D}
+	EndGlobalSection
+EndGlobal

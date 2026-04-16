@@ -1,0 +1,7 @@
+<Project>
+    <PropertyGroup>
+        <GodotPath>[MEGADOT 4.5.1 PATH]</GodotPath>
+
+        <Sts2Path>[STS2 PATH]</Sts2Path>
+    </PropertyGroup>
+</Project>
