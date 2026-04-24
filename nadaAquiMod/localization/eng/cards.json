@@ -1,7 +1,7 @@
 {
     "NADAAQUIMOD-ADA_WONG.title": "Ada Wong",
-    "NADAAQUIMOD-ADA_WONG.description": "Receba um efeito positivo dependendo da intenção do inimigo.\nAtacar: Receba {BufferPower:diff()} [gold]{BufferPower:plural:Buffer|Buffers}[/gold].\nEfeito Negativo: Receba {ArtifactPower:diff()} [gold]{ArtifactPower:plural:Artefato|Artefatos}[/gold].",
+    "NADAAQUIMOD-ADA_WONG.description": "Se o inimigo for atacar, ganhe {BufferPower:diff()} [gold]{BufferPower:plural:Amortecedor|Amortecedores}[/gold].\nCaso contrário, ganhe {ArtifactPower:diff()} [gold]{ArtifactPower:plural:Artefato|Artefatos}[/gold].",
     
     "NADAAQUIMOD-SABLE_WARD.title": "Sable Ward",
-    "NADAAQUIMOD-SABLE_WARD.description": "Aplique um efeito negativo dependendo da intenção do inimigo.\nAtacar: Aplique {WeakPower:diff()} [gold]{WeakPower:plural:Fraquesa|Fraquesas}[/gold].\nDefender: Aplique {VulnerablePower:diff()} [gold]{VulnerablePower:plural:Vulnerável|Vulneráveis}[/gold]."
+    "NADAAQUIMOD-SABLE_WARD.description": "Se o inimigo for atacar, aplique {WeakPower:diff()} [gold]{WeakPower:plural:Fraquesa|Fraquesas}[/gold].\nCaso contrário, aplique {VulnerablePower:diff()} [gold]{VulnerablePower:plural:Vulnerável|Vulneráveis}[/gold]."
 }

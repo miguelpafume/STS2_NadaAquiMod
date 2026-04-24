@@ -1,14 +1,17 @@
 Cartas:
-    ada wong        // bueno
-    sable ward      // bueno
-    carro espião    // mr agumon
-    kikao           // andreyzil
-        0.5% de chance de dar ik no alvo
-    churrasco       // kurona
-    bahiano         // mr agumon
-    alexandre       // lexandre
-        faz com que todos os ataques peguem apenas em vc
+  carro espião    // mr agumon
+  kikao           // andreyzil
+    0.5% de chance de dar ik no alvo
+  churrasco       // kurona
+  bahiano         // mr agumon
+  alexandre       // lexandre
+    faz com que todos os ataques peguem apenas em vc (acho que isso já existe)
+  SKARNER         // SKY
 
+IN PROGRESS:
+  Outros:
+    mecanica de combo
 
-Outros:
-    mecanica de combo (n tenho ideia de como faz isso) // eu
+DONE:
+  ada wong        // bueno
+  sable ward      // bueno
