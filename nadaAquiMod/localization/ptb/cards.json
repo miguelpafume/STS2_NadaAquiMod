@@ -1,4 +1,10 @@
 {
+    "NADAAQUIMOD-STRIKE_JESTER.title": "Golpe",
+    "NADAAQUIMOD-STRIKE_JESTER.description": "Cause {Damage:diff()} de dano.",
+
+    "NADAAQUIMOD-DEFEND_JESTER.title": "Defesa",
+    "NADAAQUIMOD-DEFEND_JESTER.description": "Receba {Block:diff()} de [gold]Proteção[/gold].",
+
     "NADAAQUIMOD-ADA_WONG.title": "Ada Wong",
     "NADAAQUIMOD-ADA_WONG.description": "Se o inimigo for atacar, ganhe {BufferPower:diff()} [gold]{BufferPower:plural:Amortecedor|Amortecedores}[/gold].\nSe for aplicar aplicar um efeito negativo, ganhe {ArtifactPower:diff()} [gold]{ArtifactPower:plural:Artefato|Artefatos}[/gold].",
     

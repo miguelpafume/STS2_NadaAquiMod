@@ -12,10 +12,11 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 
 using nadaAquiMod.nadaAquiModCode.Combo;
 using nadaAquiMod.nadaAquiModCode.Extensions;
+using nadaAquiMod.nadaAquiModCode.Character;
 
 namespace nadaAquiMod.nadaAquiModCode.Cards;
 
-[Pool(typeof(ColorlessCardPool))]
+[Pool(typeof(JesterCardPool))]
 public class AdaWong() : CustomCardModel(2, CardType.Skill, CardRarity.Rare, TargetType.AnyEnemy)
 {
     public override string CustomPortraitPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".BigCardImagePath();
@@ -49,6 +50,10 @@ public class AdaWong() : CustomCardModel(2, CardType.Skill, CardRarity.Rare, Tar
             await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
 
             ComboTracker.ConsumeCombo("NADAAQUIMOD-SABLE_WARD");
+        }
+        else
+        {
+            await Message.ShowMessage("Imagina só um crossover...");
         }
     }
 

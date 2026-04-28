@@ -11,12 +11,13 @@ using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 
 using nadaAquiMod.nadaAquiModCode.Combo;
+using nadaAquiMod.nadaAquiModCode.Character;
 using nadaAquiMod.nadaAquiModCode.Extensions;
 
 namespace nadaAquiMod.nadaAquiModCode.Cards;
 
-[Pool(typeof(ColorlessCardPool))]
-public class SableWard() : CustomCardModel(2, CardType.Skill, CardRarity.Rare, TargetType.AnyEnemy)
+[Pool(typeof(JesterCardPool))]
+public class SableWard() : CustomCardModel(1, CardType.Skill, CardRarity.Rare, TargetType.AnyEnemy)
 {
     public override string CustomPortraitPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".BigCardImagePath();
     public override string PortraitPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".CardImagePath();
@@ -47,6 +48,10 @@ public class SableWard() : CustomCardModel(2, CardType.Skill, CardRarity.Rare, T
             await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
 
             ComboTracker.ConsumeCombo("NADAAQUIMOD-ADA_WONG");
+        }
+        else
+        {
+            await Message.ShowMessage("Imagina só um crossover...");
         }
     }
 
