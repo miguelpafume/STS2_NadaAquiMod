@@ -7,6 +7,23 @@ Cartas:
   alexandre       // lexandre
     faz com que todos os ataques peguem apenas em vc (acho que isso já existe)
   SKARNER         // SKY
+    shield + veneno
+
+  Aura Farm
+    - bloqueio, n pode agir pelo resto do turno, se não receber dano aumenta o hype
+
+  Power Word: Kill
+    - causa dano se matar o aliado ganha hype
+
+  The Show Must Go Om
+    - retain hype this round / for the rest of the combat
+
+Reliquias:
+  - inverte os valores de todas a porcentagens (uma carta com 30% de X e 70% de Y => 30% de Y e 70% de X)
+
+Encontro:
+  alexandre
+    coisas contrabandeadas casaco gordo
 
 IN PROGRESS:
   Outros:
@@ -15,3 +32,17 @@ IN PROGRESS:
 DONE:
   ada wong        // bueno
   sable ward      // bueno
+
+**************************************************************
+
+Personagem: O Bufão / The Jester
+
+Mecanicas:
+  - Gambling (Percentage)
+  - Joke/Punchline (Combo)
+  - Hype/Crowd (Scaling)
+
+
+Hype:
+  - Decays 20% every round
+  - Loses everything on combat end
